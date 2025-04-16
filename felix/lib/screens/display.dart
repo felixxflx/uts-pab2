@@ -64,7 +64,7 @@ class _DisplayState extends State<Display> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('App : $tanggal')),
+      appBar: AppBar(title: Text('App')),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
         child: Center(
